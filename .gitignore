@@ -1,0 +1,25 @@
+# IDE and local SDK configuration
+.idea/
+*.iml
+local.properties
+.DS_Store
+
+# Generated files and local release artifacts
+.gradle/
+.kotlin/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.hprof
+*.log
+
+# Local credentials and signing configuration
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+signing.properties

@@ -1,0 +1,13 @@
+<resources>
+    <item name="nameFilter" type="id" />
+    <item name="nameFilterLayout" type="id" />
+    <item name="showUnnamed" type="id" />
+    <item name="rssiSlider" type="id" />
+    <item name="rssiValue" type="id" />
+    <item name="scanButton" type="id" />
+    <item name="clearButton" type="id" />
+    <item name="deviceList" type="id" />
+    <item name="scanStatus" type="id" />
+    <item name="resultCount" type="id" />
+    <item name="emptyState" type="id" />
+</resources>

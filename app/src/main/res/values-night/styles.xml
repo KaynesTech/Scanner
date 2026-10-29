@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.Scanner" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#79D8C3</item>
+        <item name="colorOnPrimary">#00382E</item>
+        <item name="colorSecondary">#FFB1C5</item>
+        <item name="colorSurface">#141917</item>
+        <item name="colorOnSurface">#E0E7E2</item>
+        <item name="colorSecondaryContainer">#36413C</item>
+        <item name="colorOnSecondaryContainer">#E0E7E2</item>
+        <item name="colorOutlineVariant">#45504A</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
