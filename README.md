@@ -10,6 +10,23 @@ the information reported by Android. No account, backend, or device-specific SDK
 
 *Preview uses synthetic test data, not a live discovery capture.*
 
+## Download
+
+An installable debug APK is included for convenient testing:
+
+**[Download Scanner 1.0.2 APK](apk/scanner-1.0.2.apk)**
+
+This is a development build, not a production release. Its checksum is recorded in
+[`apk/SHA256SUMS`](apk/SHA256SUMS). To install:
+
+```sh
+adb install -r apk/scanner-1.0.2.apk
+```
+
+Android requires matching signing certificates for updates. If a previously installed
+debug or other build uses a different certificate, uninstall that build first; doing
+so removes its locally saved preferences.
+
 ## Features
 
 - One Scan button combines BLE advertisements and Classic discovery in one list.
@@ -212,8 +229,9 @@ app/src/androidTest/    Android UI tests
 ```
 
 Runtime dependencies are AndroidX, Material Components, and RE2/J. There are no
-proprietary device-vendor libraries. Build outputs, local SDK configuration, APKs,
-and signing credentials are excluded by `.gitignore`.
+proprietary device-vendor libraries. Build outputs, local SDK configuration, and
+signing credentials are excluded by `.gitignore`. APKs are ignored except for the
+single prebuilt debug APK linked above.
 
 ## License
 

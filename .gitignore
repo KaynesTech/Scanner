@@ -12,6 +12,7 @@ local.properties
 **/.externalNativeBuild/
 captures/
 *.apk
+!/apk/scanner-1.0.2.apk
 *.aab
 *.hprof
 *.log
